@@ -1,1 +1,3 @@
-### Calculando tempo de serial vs paralelizado
+# Lab 02 - Processos
+
+refere-se ao arquivo "lab02_fatorial.c"
