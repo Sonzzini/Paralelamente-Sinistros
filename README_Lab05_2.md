@@ -45,5 +45,6 @@ Foi interessante perceber o aumento de tempo médio de execução decorrente da 
 3. Paralelismo limitado
 4. Sobrecarga do sistema
 5. Tamanho do problema
+   
 Para o caso da instância EC2 t2 micro, por ela utilizar apenas 1 vCPU (virtual CPU), pode haver restrições significativas de recursos, o que pode resultar em um desempenho inferior para tarefas paralelas. O baixo desempenho da CPU pode limitar o número de threads eficazes que podem ser executadas.
 O tipo de instância EC2 t3 medium tem mais recursos do que o t2.micro, mas ainda é uma instância de tamanho médio e pode ter limitações para cargas de trabalho paralelas intensivas.
