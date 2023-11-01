@@ -26,6 +26,9 @@ int main() {
         }
     }
 
+    // Defina o número mínimo de threads que deseja usar (pelo menos 2)
+    omp_set_num_threads(2);
+
     clock_t start_time, end_time;
     start_time = clock(); // Registrar o tempo inicial
 
